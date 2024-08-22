@@ -1,0 +1,16 @@
+git init
+git config --global user.name "Junior"
+git config --global user.email "edson.sanchez@ucsm.edu.pe"
+
+git add index.html
+
+git commit -m "Agregar archivo index.html con elementos HTML básicos"
+
+git add index.html
+
+git commit -m "Editado index.html: añadidos elementos <em>, <a>, y atributos href, title, target"
+
+git remote add origin https://github.com/tuusuario/turepositorio.git
+
+git push -u origin main
+
